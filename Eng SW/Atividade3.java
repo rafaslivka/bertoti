@@ -1,19 +1,8 @@
-Projeto de Testes Automatizados em Java
-Descrição
-Este projeto é uma atividade prática da aula de 19/08, com o objetivo de criar e testar duas classes em Java: Aluno e SalaAula. O projeto inclui a implementação de um sistema simples para gerenciar informações de alunos e realizar testes automatizados utilizando JUnit.
+Atividade 3 - Aula de 19/08 Objetivo Repetir as classes SalaAula e Aula com um exemplo próprio e realizar testes automatizados.
 
-Objetivo
-Recriar as classes SalaAula e Aluno com um exemplo próprio.
-Realizar testes automatizados para garantir o funcionamento correto das funcionalidades implementadas.
-Estrutura do Projeto
-Classes
-Aluno
-Representa um aluno com nome e RA (Registro Acadêmico).
+  ____________________________________________________________________________________________________________________________________________________
 
-java
-Copiar código
-public class Aluno {
-
+  public ClassAluno
     private String nome;
     private String ra;
 
@@ -30,11 +19,9 @@ public class Aluno {
         return ra;
     }
 }
-SalaAula
-Gerencia uma lista de alunos, com funcionalidades para cadastrar alunos e buscar alunos por nome.
 
-java
-Copiar código
+  ____________________________________________________________________________________________________________________________________________________
+
 import java.util.List;
 import java.util.LinkedList;
 
@@ -59,11 +46,9 @@ public class SalaAula {
         return alunos;
     }
 }
-Testes Automatizados
-Utilizando JUnit para validar as funcionalidades da classe SalaAula.
 
-java
-Copiar código
+  ____________________________________________________________________________________________________________________________________________________
+
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;
 import org.junit.jupiter.api.Test;
