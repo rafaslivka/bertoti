@@ -2,10 +2,8 @@ Atividade 3 - Aula de 19/08
 Objetivo
 Recriar as classes SalaAula e Aluno com um exemplo próprio e realizar testes automatizados.
 
-Código Java
-Classe Aluno
-java
-Copiar código
+____________________________________________________________________________________________________
+
 public class Aluno {
 
     private String nome;
@@ -23,9 +21,8 @@ public class Aluno {
         return ra;
     }
 }
-Classe SalaAula
-java
-Copiar código
+____________________________________________________________________________________________________
+
 import java.util.List;
 import java.util.LinkedList;
 
@@ -50,9 +47,8 @@ public class SalaAula {
         return alunos;
     }
 }
-Testes Automatizados
-java
-Copiar código
+____________________________________________________________________________________________________
+
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;
 import org.junit.jupiter.api.Test;
@@ -75,3 +71,4 @@ class Teste {
         assertEquals(joseses.get(0).getRa(), jose.getRa());
     }
 }
+
