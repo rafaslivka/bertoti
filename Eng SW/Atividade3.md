@@ -2,6 +2,9 @@ Atividade 3 - Aula de 19/08
 Objetivo
 Recriar as classes SalaAula e Aluno com um exemplo próprio e realizar testes automatizados.
 
+Teste JUnit:
+![image](https://github.com/user-attachments/assets/03d20c15-8f33-4302-9520-dfb9b424bb6c)
+
 ____________________________________________________________________________________________________
 
 public class Aluno {
