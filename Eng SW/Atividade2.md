@@ -24,7 +24,3 @@ Trade-offs referem-se a decisões onde escolher uma opção resulta em compromet
 - **Qualidade**: Focar na qualidade pode garantir que o produto final atenda aos padrões e expectativas mais elevados.
 
 **Compromisso**: Priorizar a velocidade pode resultar em um produto com defeitos ou problemas de desempenho. Enquanto isso, garantir uma alta qualidade pode levar a um ciclo de desenvolvimento mais longo.
-
----
-
-Lembre-se, os trade-offs são uma parte inevitável do desenvolvimento e gerenciamento de projetos. A chave é encontrar o equilíbrio certo para atender às necessidades específicas do seu projeto e dos seus stakeholders.
