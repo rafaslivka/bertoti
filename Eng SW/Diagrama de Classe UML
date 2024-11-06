@@ -6,33 +6,15 @@ Classe Aluno: Representa os alunos com nome e ra como atributos, além de métod
 Classe SalaAula: Gerencia uma lista de alunos, com métodos para cadastrar novos alunos e buscar alunos por nome.
 Classe Teste: Contém métodos de teste para validar as operações da classe SalaAula.
 Diagrama de Classe UML
-plaintext
-Copiar código
-+------------------------------------+
-|               Aluno                |
-+------------------------------------+
-| - nome: String                     |
-| - ra: String                       |
-+------------------------------------+
-| + Aluno(nome: String, ra: String)  |
-| + getNome(): String                |
-| + getRa(): String                  |
-+------------------------------------+
++------------------------------------+          +------------------------------------+          +------------------------------------+
+|               Aluno                |          |            SalaAula                |          |              Teste                 |
++------------------------------------+          +------------------------------------+          +------------------------------------+
+| - nome: String                     |          | - alunos: List<Aluno>              |          | <<Test>>                           |
+| - ra: String                       |          +------------------------------------+          +------------------------------------+
++------------------------------------+          | + cadastrarAluno(aluno: Aluno):    |          | + test(): void                     |
+| + Aluno(nome: String, ra: String)  |          |   void                             |          +------------------------------------+
+| + getNome(): String                |          | + buscarAlunoPorNome(nome: String):|
+| + getRa(): String                  |          |   List<Aluno>                      |
++------------------------------------+          | + getAlunos(): List<Aluno>         |
+                                               +------------------------------------+
 
-+------------------------------------+
-|            SalaAula                |
-+------------------------------------+
-| - alunos: List<Aluno>              |
-+------------------------------------+
-| + cadastrarAluno(aluno: Aluno): void |
-| + buscarAlunoPorNome(nome: String): List<Aluno> |
-| + getAlunos(): List<Aluno>         |
-+------------------------------------+
-
-+------------------------------------+
-|              Teste                 |
-+------------------------------------+
-| <<Test>>                           |
-+------------------------------------+
-| + test(): void                     |
-+------------------------------------+
