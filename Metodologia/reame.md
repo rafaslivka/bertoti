@@ -2,14 +2,14 @@
 
 ## 👤 Introdução
 
-Sou estudante de **Química e Banco de Dados**, com interesse em **desenvolvimento backend**, **APIs REST**, **integração de sistemas** e **bancos de dados relacionais**.  
+Sou estudante de **Banco de Dados**, com interesse em **desenvolvimento backend**, **APIs REST**, **integração de sistemas** e **bancos de dados relacionais**.  
 Tenho experiência em projetos acadêmicos que utilizam **Java (Spring Boot)**, **Vue.js** e **MySQL/PostgreSQL**, aplicando conceitos de **engenharia de software**, **metodologias ágeis** e boas práticas de versionamento com Git.  
 
 ---
 
 ## 📬 Contatos
 - [GitHub](https://github.com/rafaslivka)  
-- [LinkedIn](https://www.linkedin.com/) <!-- Substitua pela sua URL -->
+- [LinkedIn](https://www.linkedin.com/in/rafael-lopes-slivka-07753326a/)
 
 ---
 
