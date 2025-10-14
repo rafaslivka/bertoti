@@ -1,0 +1,33 @@
++-------------------+
+|      Canal        |
++-------------------+
+| - nome: String    |
+| - mensagem: String|
++-------------------+
+| + Canal(String)   |
+| + publicar(String,|
+|    Usuario,       |
+|    Usuario): void |
++-------------------+
+         |
+         | notifica
+         v
++-------------------+
+|     Usuario       |
++-------------------+
+| - nome: String    |
++-------------------+
+| + Usuario(String) |
+| + receberMensagem(|
+|    String,        |
+|    String): void  |
++-------------------+
+         ^
+         |
+         | cria
+         |
++-------------------+
+|       Main        |
++-------------------+
+| + main(String[]) |
++-------------------+
