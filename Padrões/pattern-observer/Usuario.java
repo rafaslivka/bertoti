@@ -10,9 +10,4 @@ public class Usuario implements Observer {
     public void update(String mensagem) {
         System.out.println("🔔 " + nome + " recebeu: " + mensagem);
     }
-
-    public void receberMensagem(String nome2, String mensagem) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'receberMensagem'");
-    }
 }

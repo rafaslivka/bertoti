@@ -31,9 +31,4 @@ public class Canal implements Subject {
         System.out.println("📢 " + nome + " publicou: " + mensagem);
         notificar(mensagem);
     }
-
-    public void publicar(String string, Usuario joao, Usuario maria) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'publicar'");
-    }
 }
