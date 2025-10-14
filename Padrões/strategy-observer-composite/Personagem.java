@@ -1,9 +1,8 @@
-// strategy-observer-composite/Personagem.java
 import java.util.ArrayList;
 import java.util.List;
 
 public class Personagem implements Observer, Subject {
-    private String nome;
+    private final String nome;
     private Ataque estrategiaAtaque;
     private List<Observer> aliados = new ArrayList<>();
 
@@ -32,5 +31,25 @@ public class Personagem implements Observer, Subject {
         for (Observer o : aliados) {
             o.update(mensagem);
         }
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public Ataque getEstrategiaAtaque() {
+        return estrategiaAtaque;
+    }
+
+    public void setEstrategiaAtaque(Ataque estrategiaAtaque) {
+        this.estrategiaAtaque = estrategiaAtaque;
+    }
+
+    public List<Observer> getAliados() {
+        return aliados;
+    }
+
+    public void setAliados(List<Observer> aliados) {
+        this.aliados = aliados;
     }
 }

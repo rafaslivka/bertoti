@@ -1,0 +1,53 @@
+@startuml StrategyPatternAlterado
+
+' ---------------------------
+' Interface Strategy
+' ---------------------------
+interface Atacar {
+    + atacar(nome: String) : void
+}
+
+' ---------------------------
+' Estratégias concretas
+' ---------------------------
+class AtaqueForte {
+    + atacar(nome: String) : void
+}
+
+class AtaqueRapido {
+    + atacar(nome: String) : void
+}
+
+class AtaqueMagia {
+    + atacar(nome: String) : void
+}
+
+' ---------------------------
+' Contexto
+' ---------------------------
+class Personagem {
+    - nome : String
+    - estrategiaAtaque : Atacar
+    + Personagem(nome: String, estrategiaAtaque: Atacar)
+    + setEstrategiaAtaque(estrategiaAtaque: Atacar) : void
+    + atacar() : void
+}
+
+class Main {
+    + main(args: String[]) : void
+}
+
+' ---------------------------
+' Implementação / Herança
+' ---------------------------
+AtaqueForte ..|> Atacar
+AtaqueRapido ..|> Atacar
+AtaqueMagia ..|> Atacar
+
+' ---------------------------
+' Associação / dependência
+' ---------------------------
+Main --> Personagem : cria/usa
+Personagem o-- Atacar : possui estratégia
+
+@enduml

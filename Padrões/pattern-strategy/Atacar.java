@@ -1,4 +1,5 @@
-// pattern-strategy/Atacar.java
 public interface Atacar {
-    void atacar(String nome);
+    void agir(String nome);
+
+    public void atacar(String nome);
 }

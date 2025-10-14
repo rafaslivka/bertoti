@@ -1,33 +1,56 @@
-// antipattern-strategy/Personagem.java
-public class Personagem {
-    private String nome;
-    private String tipoAtaque;
+// Personagem.java
+public abstract class Personagem {
+    protected String nome;
 
-    public Personagem(String nome, String tipoAtaque) {
+    public Personagem(String nome) {
         this.nome = nome;
-        this.tipoAtaque = tipoAtaque;
     }
 
-    public void atacar() {
-        System.out.print(nome + " ataca: ");
-        if ("espada".equalsIgnoreCase(tipoAtaque)) {
-            System.out.println("Golpe com espada!");
-        } else if ("arco".equalsIgnoreCase(tipoAtaque)) {
-            System.out.println("Flecha disparada!");
-        } else if ("magia".equalsIgnoreCase(tipoAtaque)) {
-            System.out.println("Bola de fogo lançada!");
-        } else {
-            System.out.println("Tentativa de ataque desconhecida...");
-        }
-    }
+    public abstract void atacar();
 
     public static void main(String[] args) {
-        Personagem p1 = new Personagem("Arthur", "Espada");
-        Personagem p2 = new Personagem("Robin", "Arco");
-        Personagem p3 = new Personagem("Merlin", "Magia");
+        Personagem p1 = new Guerreiro("Arthur");
+        Personagem p2 = new Arqueiro("Robin");
+        Personagem p3 = new Mago("Merlin");
 
         p1.atacar();
         p2.atacar();
         p3.atacar();
+    }
+}
+
+class Guerreiro extends Personagem {
+
+    public Guerreiro(String nome) {
+        super(nome);
+    }
+
+    @Override
+    public void atacar() {
+        System.out.println(nome + " ataca: Golpe com espada!");
+    }
+}
+
+class Arqueiro extends Personagem {
+
+    public Arqueiro(String nome) {
+        super(nome);
+    }
+
+    @Override
+    public void atacar() {
+        System.out.println(nome + " ataca: Flecha disparada!");
+    }
+}
+
+class Mago extends Personagem {
+
+    public Mago(String nome) {
+        super(nome);
+    }
+
+    @Override
+    public void atacar() {
+        System.out.println(nome + " ataca: Bola de fogo lançada!");
     }
 }

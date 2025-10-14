@@ -1,0 +1,28 @@
+@startuml AntipatternObserver
+
+' Classes principais
+class Canal {
+    - nome : String
+    - mensagem : String
+    + Canal(nome: String)
+    + publicar(mensagem: String, usuario1: Usuario, usuario2: Usuario) : void
+}
+
+class Usuario {
+    - nome : String
+    + Usuario(nome: String)
+    + receberMensagem(canal: String, mensagem: String) : void
+}
+
+class Main {
+    + main(args: String[]) : void
+}
+
+' Associação simples (linha contínua)
+Main --> Canal
+Main --> Usuario
+
+' Canal mantém referências diretas para os usuários (agregação)
+Canal o-- Usuario : notifica
+
+@enduml

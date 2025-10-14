@@ -1,34 +1,33 @@
-// pattern-observer/Canal.java
 import java.util.ArrayList;
 import java.util.List;
 
 public class Canal implements Subject {
     private String nome;
-    private List<Observer> inscritos = new ArrayList<>();
+    private List<Observer> assinantes = new ArrayList<>();
 
     public Canal(String nome) {
         this.nome = nome;
     }
 
     @Override
-    public void adicionar(Observer o) {
-        inscritos.add(o);
+    public void registrar(Observer o) {
+        assinantes.add(o);
     }
 
     @Override
     public void remover(Observer o) {
-        inscritos.remove(o);
+        assinantes.remove(o);
     }
 
     @Override
     public void notificar(String mensagem) {
-        for (Observer o : inscritos) {
-            o.update(nome + ": " + mensagem);
+        for (Observer o : assinantes) {
+            o.atualizar(nome + ": " + mensagem);
         }
     }
 
-    public void publicar(String mensagem) {
-        System.out.println("📢 " + nome + " publicou: " + mensagem);
+    public void enviarNoticia(String mensagem) {
+        System.out.println("📰 " + nome + " publicou: " + mensagem);
         notificar(mensagem);
     }
 }

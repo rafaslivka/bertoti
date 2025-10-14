@@ -1,0 +1,72 @@
+@startuml StrategyObserverComposite
+
+' ---------------------------
+' Interfaces
+' ---------------------------
+interface Ataque {
+    + executar(nome: String) : void
+}
+
+interface Observer {
+    + update(mensagem: String) : void
+}
+
+interface Subject {
+    + adicionar(o: Observer) : void
+    + notificar(mensagem: String) : void
+}
+
+' ---------------------------
+' Classes concretas
+' ---------------------------
+class AtaqueFisico {
+    + executar(nome: String) : void
+}
+
+class AtaqueMagico {
+    + executar(nome: String) : void
+}
+
+class Personagem {
+    - nome : String
+    - estrategiaAtaque : Ataque
+    - aliados : List<Observer>
+    + Personagem(nome: String, estrategiaAtaque: Ataque)
+    + atacar() : void
+    + adicionar(o: Observer) : void
+    + notificar(mensagem: String) : void
+    + update(mensagem: String) : void
+}
+
+class Grupo {
+    - nome : String
+    - membros : List<Personagem>
+    + Grupo(nome: String)
+    + adicionar(p: Personagem) : void
+    + exibir() : void
+    + update(mensagem: String) : void
+}
+
+class Main {
+    + main(args: String[]) : void
+}
+
+' ---------------------------
+' Implementação / Herança
+' ---------------------------
+AtaqueFisico ..|> Ataque
+AtaqueMagico ..|> Ataque
+Personagem ..|> Observer
+Personagem ..|> Subject
+Grupo ..|> Observer
+
+' ---------------------------
+' Associação / dependência
+' ---------------------------
+Main --> Personagem : cria/usa
+Main --> Grupo : cria/usa
+Personagem o-- Ataque : possui estratégia
+Personagem *-- Observer : mantém aliados
+Grupo *-- Personagem : contém membros
+
+@enduml

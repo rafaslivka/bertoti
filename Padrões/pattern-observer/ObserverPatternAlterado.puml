@@ -1,0 +1,52 @@
+@startuml ObserverPatternAlterado
+
+' ---------------------------
+' Interfaces
+' ---------------------------
+interface Observer {
+    + atualizar(mensagem: String) : void
+}
+
+interface Subject {
+    + registrar(o: Observer) : void
+    + remover(o: Observer) : void
+    + notificar(mensagem: String) : void
+}
+
+' ---------------------------
+' Classes concretas
+' ---------------------------
+class Canal {
+    - nome : String
+    - assinantes : List<Observer>
+    + Canal(nome: String)
+    + registrar(o: Observer) : void
+    + remover(o: Observer) : void
+    + notificar(mensagem: String) : void
+    + enviarNoticia(mensagem: String) : void
+}
+
+class Usuario {
+    - nome : String
+    + Usuario(nome: String)
+    + atualizar(mensagem: String) : void
+}
+
+class Main {
+    + main(args: String[]) : void
+}
+
+' ---------------------------
+' Implementação / Herança
+' ---------------------------
+Canal ..|> Subject
+Usuario ..|> Observer
+
+' ---------------------------
+' Associação / dependência
+' ---------------------------
+Main --> Canal : cria/usa
+Main --> Usuario : cria/usa
+Canal *-- Observer : mantém lista de assinantes
+
+@enduml

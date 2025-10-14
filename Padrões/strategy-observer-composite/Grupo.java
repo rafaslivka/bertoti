@@ -1,4 +1,3 @@
-// strategy-observer-composite/Grupo.java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,14 +9,14 @@ public class Grupo implements Observer {
         this.nome = nome;
     }
 
-    public void adicionar(Item mbappe) {
-        membros.add(mbappe);
+    public void adicionar(Personagem p) {
+        membros.add(p);
     }
 
     public void exibir() {
         System.out.println("Grupo: " + nome);
         for (Personagem p : membros) {
-            System.out.println(" - " + p);
+            System.out.println(" - " + p.getNome());
         }
     }
 

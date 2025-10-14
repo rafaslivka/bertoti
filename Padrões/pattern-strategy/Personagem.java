@@ -1,7 +1,6 @@
-// pattern-strategy/Personagem.java
 public class Personagem {
     private String nome;
-    private Atacar estrategiaAtaque; // referência à Strategy
+    private Atacar estrategiaAtaque;
 
     public Personagem(String nome, Atacar estrategiaAtaque) {
         this.nome = nome;

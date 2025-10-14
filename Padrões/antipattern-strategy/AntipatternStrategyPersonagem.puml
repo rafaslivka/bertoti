@@ -1,0 +1,49 @@
+@startuml AntipatternStrategyPersonagemCompleto
+
+' ---------------------------
+' Classes principais
+' ---------------------------
+abstract class Personagem {
+    - nome : String
+    + Personagem(nome: String)
+    + atacar() : void
+}
+
+class Guerreiro {
+    + Guerreiro(nome: String)
+    + atacar() : void
+}
+
+class Arqueiro {
+    + Arqueiro(nome: String)
+    + atacar() : void
+}
+
+class Mago {
+    + Mago(nome: String)
+    + atacar() : void
+}
+
+class Main {
+    + main(args: String[]) : void
+}
+
+' ---------------------------
+' Herança / Implementação
+' ---------------------------
+Guerreiro --|> Personagem
+Arqueiro --|> Personagem
+Mago --|> Personagem
+
+' ---------------------------
+' Associação
+' ---------------------------
+Main --> Personagem : cria/usa
+
+' ---------------------------
+' Composição / Agregação
+' ---------------------------
+Personagem o-- "0..*" Arma : possui
+Personagem o-- "0..*" Habilidade : possui
+
+@enduml

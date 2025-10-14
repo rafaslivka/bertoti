@@ -1,23 +1,22 @@
-// pattern-composite/Main.java
 public class Main {
     public static void main(String[] args) {
-        Item neymar = new Item("Neymar");
-        Item mbappe = new Item("Mbappé");
-        Item casemiro = new Item("Casemiro");
-        Item marquinhos = new Item("Marquinhos");
+        Item cadeira = new Item("Cadeira");
+        Item mesa = new Item("Mesa");
+        Item computador = new Item("Computador");
+        Item impressora = new Item("Impressora");
 
-        Grupo ataque = new Grupo("Ataque");
-        ataque.adicionar(neymar);
-        ataque.adicionar(mbappe);
+        Grupo escritorio = new Grupo("Escritório");
+        escritorio.adicionar(cadeira);
+        escritorio.adicionar(mesa);
 
-        Grupo defesa = new Grupo("Defesa");
-        defesa.adicionar(casemiro);
-        defesa.adicionar(marquinhos);
+        Grupo equipamentos = new Grupo("Equipamentos");
+        equipamentos.adicionar(computador);
+        equipamentos.adicionar(impressora);
 
-        Grupo timeTitular = new Grupo("Time Titular");
-        timeTitular.adicionar(ataque);
-        timeTitular.adicionar(defesa);
-        
-        timeTitular.exibir();
+        Grupo sala = new Grupo("Sala de Trabalho");
+        sala.adicionar(escritorio);
+        sala.adicionar(equipamentos);
+
+        sala.mostrar();
     }
 }

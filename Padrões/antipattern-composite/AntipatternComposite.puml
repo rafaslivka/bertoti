@@ -1,0 +1,33 @@
+@startuml AntipatternComposite
+
+' Classes principais
+class Item {
+    - nome : String
+    + Item(nome: String)
+    + exibir() : void
+    + adicionar(Item) : void
+}
+
+class Grupo {
+    - nome : String
+    - itens : List<Item>
+    + Grupo(nome: String)
+    + adicionar(Item) : void
+    + exibir() : void
+}
+
+class Main {
+    + main(args: String[]) : void
+}
+
+' Associação simples (linha contínua)
+Main --> Item
+Main --> Grupo
+
+' Grupo contém múltiplos itens (composição)
+Grupo *-- Item : contem
+
+' Caso futuramente Item seja interface para subtipos
+' Item <|-- Grupo
+
+@enduml

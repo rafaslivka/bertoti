@@ -1,0 +1,48 @@
+@startuml CompositePatternAlterado
+
+' ---------------------------
+' Interface base
+' ---------------------------
+interface Componente {
+    + mostrar() : void
+}
+
+' ---------------------------
+' Classes concretas
+' ---------------------------
+class Item {
+    - nome : String
+    + Item(nome: String)
+    + mostrar() : void
+}
+
+class Grupo {
+    - nome : String
+    - elementos : List<Componente>
+    + Grupo(nome: String)
+    + adicionar(c: Componente) : void
+    + mostrar() : void
+}
+
+class Main {
+    + main(args: String[]) : void
+}
+
+' ---------------------------
+' Implementação / Herança
+' ---------------------------
+Item ..|> Componente
+Grupo ..|> Componente
+
+' ---------------------------
+' Associação
+' ---------------------------
+Main --> Componente : cria/usa
+Main --> Grupo : cria/usa
+
+' ---------------------------
+' Composição / Agregação
+' ---------------------------
+Grupo *-- Componente : contém
+
+@enduml

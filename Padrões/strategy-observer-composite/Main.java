@@ -1,18 +1,17 @@
-// strategy-observer-composite/Main.java
 public class Main {
     public static void main(String[] args) {
         Ataque fisico = new AtaqueFisico();
         Ataque magico = new AtaqueMagico();
 
-        Personagem lysandre = new Personagem("Lysandre", fisico);
-        Personagem selene = new Personagem("Selene", magico);
+        Personagem aiden = new Personagem("Aiden", fisico);
+        Personagem luna = new Personagem("Luna", magico);
 
-        Grupo grupo = new Grupo("Aventuras Carmesins");
+        Grupo herois = new Grupo("Guardians of Elements");
 
-        lysandre.adicionar(selene); // Observer
-        selene.adicionar(grupo);    // Composite + Observer
+        aiden.adicionar(luna);  // Observer
+        luna.adicionar(herois); // Composite + Observer
 
-        lysandre.atacar();
-        selene.atacar();
+        aiden.atacar();
+        luna.atacar();
     }
 }

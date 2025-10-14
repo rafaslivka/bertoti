@@ -1,4 +1,3 @@
-// pattern-composite/Item.java
 public class Item implements Componente {
     private String nome;
 
@@ -7,7 +6,7 @@ public class Item implements Componente {
     }
 
     @Override
-    public void exibir() {
-        System.out.println("- " + nome);
+    public void mostrar() {
+        System.out.println("  Item: " + nome);
     }
 }

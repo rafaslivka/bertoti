@@ -1,4 +1,3 @@
-// pattern-observer/Usuario.java
 public class Usuario implements Observer {
     private String nome;
 
@@ -7,7 +6,7 @@ public class Usuario implements Observer {
     }
 
     @Override
-    public void update(String mensagem) {
+    public void atualizar(String mensagem) {
         System.out.println("🔔 " + nome + " recebeu: " + mensagem);
     }
 }

@@ -1,23 +1,20 @@
-// pattern-observer/Main.java
 public class Main {
     public static void main(String[] args) {
-        Canal palmeiras = new Canal("Palmeiras FC");
-        Canal brasileirao = new Canal("Brasileirão 2025");
+        Canal tecnologia = new Canal("Tech News");
+        Canal esportes = new Canal("Esportes Hoje");
 
-        Usuario joao = new Usuario("João");
-        Usuario maria = new Usuario("Maria");
-        Usuario pedro = new Usuario("Pedro");
+        Usuario alice = new Usuario("Alice");
+        Usuario bob = new Usuario("Bob");
+        Usuario carlos = new Usuario("Carlos");
 
-        // Usuários se inscrevem nos canais
-        palmeiras.adicionar(joao);
-        palmeiras.adicionar(maria);
-        
-        brasileirao.adicionar(joao);
-        brasileirao.adicionar(pedro);
+        tecnologia.registrar(alice);
+        tecnologia.registrar(bob);
 
-        // Publicações
-        palmeiras.publicar("GOOOOL! Palmeiras 2 x 0 Santos!");
+        esportes.registrar(alice);
+        esportes.registrar(carlos);
+
+        tecnologia.enviarNoticia("Novo smartphone lançado esta semana!");
         System.out.println();
-        brasileirao.publicar("Rodada 15 começa hoje às 16h!");
+        esportes.enviarNoticia("Campeonato estadual começa no próximo domingo!");
     }
 }
