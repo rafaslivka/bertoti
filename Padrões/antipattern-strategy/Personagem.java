@@ -29,6 +29,5 @@ public class Personagem {
         p1.atacar();
         p2.atacar();
         p3.atacar();
-
     }
 }

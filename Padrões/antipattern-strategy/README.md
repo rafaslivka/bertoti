@@ -10,9 +10,3 @@
 
 ## 💡 Exemplo
 Um jogo onde cada personagem tem seu ataque "hardcoded" dentro da classe, sem poder trocar.
-
-## 📂 UML
-(Colocar UML mostrando uma classe `Personagem` com método `atacar()` fixo)
-
-## 🌍 Aplicação real
-Aplicativos onde as regras de negócio ficam todas espalhadas no código, em vez de serem separadas em estratégias reutilizáveis.

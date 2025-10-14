@@ -1,0 +1,10 @@
++-------------------+
+|    Personagem     |
++-------------------+
+| - nome: String    |
+| - tipoAtaque: String|
++-------------------+
+| + Personagem(String, String)|
+| + atacar(): void  |
+| + main(String[]): void|
++-------------------+

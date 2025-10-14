@@ -1,20 +1,13 @@
-# 💡 Padrão Composite
+# ✅ Pattern Composite
 
 ## ✅ O que é
-O **Composite** cria uma interface comum para objetos simples e compostos, permitindo tratá-los da mesma forma.
+O padrão Composite permite tratar objetos individuais e composições de objetos de maneira uniforme através de uma interface comum.
 
-## ❌ Problema resolvido
-- Cliente não precisa diferenciar `Arquivo` e `Pasta`.
-- Permite estruturas hierárquicas.
-- Código mais limpo e reutilizável.
+## ✨ Benefícios
+- Estrutura hierárquica flexível (árvore)
+- Facilita adicionar novos tipos de componentes
+- Código cliente simplificado: trata folhas e composições da mesma forma
+- Alta reutilização e manutenibilidade
 
 ## 💡 Exemplo
-Sistema de arquivos onde `Arquivo` e `Pasta` implementam a mesma interface `Componente`.
-
-## 📂 UML
-- Interface `Componente`
-- Classe `Arquivo` (implementa `Componente`)
-- Classe `Pasta` (implementa `Componente`, pode conter outros `Componente`)
-
-## 🌍 Aplicação real
-Sistemas de menu (menu pode conter item simples ou submenu).
+Um sistema de futebol onde jogadores individuais (Item) e grupos de jogadores (Grupo) implementam a mesma interface Componente, permitindo criar hierarquias como: Time Titular → Ataque → Jogadores.
