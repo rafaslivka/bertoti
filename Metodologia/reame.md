@@ -1,61 +1,55 @@
 # Rafael Lopes Slivka
 
-## Introdução
+## 👋 Introdução
 Olá! Sou estudante do curso de Banco de Dados da FATEC, turma de 2024.  
 
 Sempre gostei da área de exatas, e ao longo da minha vida busquei oportunidades de aprendizado técnico e acadêmico. Antes de entrar no mundo da programação, trabalhei com logística e back office, adquirindo experiência prática em processos e operações empresariais. Desde 2023, tenho me dedicado à programação, principalmente focando em Java, desenvolvimento web e banco de dados, aprimorando minhas habilidades tanto no front-end quanto no back-end.
 
-## Meus Principais Conhecimentos
+---
+
+## 📚 Principais Conhecimentos
 - **Desenvolvimento Web Front-end:** Experiência em Vue.js e noções de React.  
 - **Desenvolvimento Web Back-end:** Experiência em Java com Spring Boot e aplicações RESTful.  
 - **Banco de Dados:** Experiência em PostgreSQL, MySQL e modelagem relacional.  
 
-## Meus Projetos
+---
 
-### Projeto PACER (2025-1)
-Durante o primeiro semestre de 2025, desenvolvi com minha equipe um sistema de ponto para registrar a entrada e saída dos funcionários, gerar gráficos e relatórios para análise.  
+## ✨ Projetos
 
-**Empresa Parceira:** Projeto acadêmico com a empresa Altave.  
-**Problema:** A necessidade de uma ferramenta para monitorar atrasos e produtividade de funcionários de empresas terceirizadas.  
-**Solução:** Criamos um sistema web que consome dados de um banco de dados externo, permitindo filtros detalhados, visualização de gráficos e geração de relatórios.  
+### Frontend - Projeto Altime
+Sistema de controle de ponto com dashboard interativo, focado na gestão eficiente de empresas e colaboradores.
 
-**Tecnologias Utilizadas:**  
-- **PostgreSQL:** Estruturação de banco, normalização, índices e triggers.  
-- **Java 21 + Spring Boot:** Backend com APIs RESTful.  
-- **Maven:** Gerenciamento de dependências.  
-- **Vue.js:** Frontend interativo.  
-- **Docker:** Containerização de serviços e banco de dados.  
+Seja bem-vindo ao Frontend do projeto Altime, uma solução desenvolvida com foco na otimização do controle de ponto eletrônico, através de uma interface moderna, responsiva e intuitiva.  
+Esta aplicação permite o cadastro de empresas e colaboradores, centralizando informações e proporcionando relatórios analíticos para facilitar a tomada de decisões.
 
-**Minhas Contribuições:**  
-- Modelagem inicial do banco de dados.  
-- Desenvolvimento do front-end em Vue.js.  
-- Desenvolvimento do back-end em Spring Boot.  
-- Criação de wireframes e acompanhamento das sprints.  
+Desenvolvido por alunos do 3º semestre do curso de Banco de Dados, na FATEC Profº Jessen Vidal – São José dos Campos, SP.
 
-## Hard Skills
-- **Java e Orientação a Objetos:** Experiência em SOLID, arquitetura limpa, coleções, streams, lambdas e tratamento de exceções.  
-- **PostgreSQL:** Modelagem relacional, otimização de consultas, migração e administração.  
-- **Vue.js:** Arquitetura do projeto, comunicação com APIs e criação de componentes.  
-- **CSS/SASS:** Estilização avançada, criação de design systems e otimização de código.  
+#### 🚀 Tecnologias Utilizadas
+Nuxt.js • Java • MySQL • Figma • Swagger • GitHub • Jira
 
-## Soft Skills
-- **Trabalho em equipe:** Comunicação constante e integração com o time.  
-- **Comunicação:** Participação ativa em reuniões, alinhamento de tarefas e suporte a colegas.  
-- **Resolução de problemas:** Proposta de soluções técnicas, integração back-end/front-end e otimização de fluxos críticos.  
+#### 🖥️ Estrutura do Projeto
+Pasta | Descrição
+--- | ---
+📂 assets/ | Arquivos estáticos como imagens, ícones e fontes utilizados na interface
+📂 components/ | Componentes reutilizáveis: botões, modais, menus, formulários e outros elementos visuais
+📂 layouts/ | Estruturas de layout padrão, como cabeçalhos e barras laterais fixas
+📂 pages/ | Páginas principais da aplicação, com rotas gerenciadas automaticamente pelo Nuxt.js
+📂 public/ | Arquivos acessíveis diretamente via URL (ex: favicon)
+📂 plugins/ | Scripts executados antes da inicialização da aplicação, como integrações de bibliotecas
+📂 composables/ | Composables personalizados com Vue 3 Composition API (hooks reutilizáveis)
+📄 nuxt.config.ts | Arquivo de configuração principal do Nuxt.js
+📄 package.json | Gerenciador de dependências, scripts de inicialização e metadados do projeto
 
-## Estatísticas de GitHub
-[![card](https://github-readme-stats.vercel.app/api?username=rafaslivka&theme=Dark)](https://github.com/rafaslivka)  
-[![rafaslivka](https://github-readme-stats.vercel.app/api/top-langs/?username=rafaslivka&hide=html&layout=compact&theme=Dark)](https://github.com/rafaslivka)
+<details>
+<summary>✅ Contribuições Pessoais</summary>
 
-## Tecnologias que uso
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="40" alt="vue logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-</div>
+➡️ Desenvolvimento de páginas de cadastro de empresas e colaboradores  
+➡️ Criação de dashboards interativos com gráficos dinâmicos  
+➡️ Implementação de filtros e pesquisa avançada nos relatórios  
+➡️ Estruturação e organização de componentes reutilizáveis  
+➡️ Integração com API backend para consumo de dados do banco  
+➡️ Participação em reuniões de sprint, ajudando no planejamento das tarefas  
+➡️ Revisão e melhoria do design responsivo e experiência do usuário  
+
+</details>
+
