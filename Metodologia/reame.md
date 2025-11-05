@@ -16,13 +16,13 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> Sobre Mim
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> Introdução
 
 🚀 Desenvolvedor em constante evolução, apaixonado por tecnologia e por resolver problemas reais com código
 
-📍 São José dos Campos, SP - Brasil
+📍 Baseado em São José dos Campos, SP - Brasil
 
-💼 Atualmente estagiário no Sebrae, onde combino habilidades técnicas com operações de negócios e empreededorismo
+💼 Atualmente estagiário no Sebrae, onde combino habilidades técnicas com operações de negócios
 
 🎓 Cursando Banco de Dados na FATEC, após completar um semestre em Logística
 
@@ -34,8 +34,6 @@
 
 💪 Sempre aprendendo, sempre evoluindo, sempre programando!
 
-<br>
-
 <details>
 <summary>📖 <b>Minha Jornada</b></summary>
 <br>
@@ -46,7 +44,7 @@ graph LR
     B --> C[💻 Programação 2023]
     C --> D[🎓 FATEC 2024]
     D --> E[🎨 Frontend Specialist]
-    style E fill:#00d9ff,stroke:#0066cc,stroke-width:3px
+    style E fill:#1e40af,stroke:#0066cc,stroke-width:3px,color:#ffffff
 ```
 
 - 📦 **Experiência prévia:** Logística e operações de Back Office
@@ -60,108 +58,119 @@ graph LR
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> Tech Stack
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> Meus Principais Conhecimentos
 
 <div align="center">
 
 ### 💻 Frontend
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ### ⚙️ Backend
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=rest&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
 
 ### 🗄️ Database & Tools
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 </div>
+
+**Desenvolvimento Web Front-end:** Experiência sólida utilizando Vue.js e Nuxt.js, com foco em criação de interfaces modernas e responsivas.
+
+**Desenvolvimento Web Back-end:** Conhecimento em Java com Spring Boot, desenvolvimento de APIs REST e integração com banco de dados.
+
+**Banco de Dados:** Experiência em bancos relacionais, principalmente PostgreSQL e MySQL, com foco em modelagem e otimização.
 
 <br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> Projeto em Destaque
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> Meus Projetos
+
+### Em 2025-1
+
+Durante o primeiro semestre de 2025, desenvolvi junto da minha equipe um projeto desafiador focado na criação de um **sistema de controle de ponto** que registra as movimentações dos funcionários, com dashboards de gráficos e geração de relatórios. O sistema registra a entrada e saída dos funcionários, calcula a quantidade de horas trabalhadas, e gera gráficos e relatórios com essas informações.
 
 <div align="center">
 
 ### 🕐 Altime - Sistema de Controle de Ponto
 
-<table>
-<tr>
-<td width="50%">
-
-#### 📊 Sobre o Projeto
-Sistema completo de **controle de ponto eletrônico** desenvolvido para otimizar a gestão empresarial através de uma interface moderna, responsiva e intuitiva.
-
-#### 🎯 Características
-Sistema centralizado de informações com dashboards analíticos e relatórios detalhados para facilitar a tomada de decisões.
-
-</td>
-<td width="50%">
-
-#### 📈 Informações
 ![Status](https://img.shields.io/badge/Status-Concluído-success?style=flat-square)
 ![Team](https://img.shields.io/badge/Team-6%20Devs-blue?style=flat-square)
 ![Semester](https://img.shields.io/badge/Semestre-3º-green?style=flat-square)
 
-#### 🎓 Instituição
-**FATEC Profº Jessen Vidal**  
-São José dos Campos, SP
+</div>
 
-</td>
-</tr>
-</table>
+**Empresa Parceira:** Projeto acadêmico desenvolvido no âmbito da FATEC, com parceria com a empresa Altave.
+
+**Problema:** A necessidade de uma ferramenta que verificasse atrasos em funcionários de uma empresa terceira contratada, a fim de evitar atrasos e, por consequência, prejuízos para o cliente. Era necessário um sistema que centralizasse as informações de ponto, facilitasse a análise de dados e gerasse relatórios para tomada de decisão.
+
+**Solução Entregue pela Equipe:** Desenvolvemos um sistema web que permite o cadastro de empresas, funcionários e suas informações específicas, possibilitando uma gestão centralizada e eficiente. O sistema conta com um dashboard interativo que oferece uma visão detalhada de todas as atividades, facilitando a análise e o acompanhamento dos dados relacionados à gestão de pessoas e processos. Esta interface possibilita diversos filtros para os usuários, além de oferecer gráficos interativos e extração de relatórios em PDF e Excel para melhor análise e tomada de decisões.
+
+**Repositório do projeto:** [DenariusData - Sistema Altime](https://github.com/DenariusData/API-3SEM)
 
 <br>
 
-#### 🔧 Stack Tecnológica
+#### 🔧 Tecnologias Utilizadas
+
 ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+
+**Nuxt.js:** Framework Vue utilizado para construir o frontend da aplicação, permitindo renderização server-side (SSR) e geração de sites estáticos (SSG) para melhor performance e SEO.
+
+**Vue.js:** Framework JavaScript progressivo para construção de interfaces de usuário, utilizado para criar componentes reutilizáveis e reativas.
+
+**MySQL:** Banco de dados relacional utilizado para armazenar de forma estruturada os dados de empresas, funcionários e registros de ponto.
+
+**Java 21:** Linguagem principal do backend, com ênfase em orientação a objetos e utilização de recursos modernos da linguagem.
+
+**Spring Boot:** Framework para desenvolvimento da API RESTful, responsável por expor endpoints para comunicação com o frontend. Utilizou-se Spring Data JPA para mapeamento objeto-relacional (ORM) com o MySQL.
+
+**Chart.js:** Biblioteca JavaScript para criação de gráficos interativos e responsivos no dashboard.
+
+**Figma:** Ferramenta de design utilizada para criação de wireframes e protótipos da interface do usuário.
 
 #### 🔗 Links do Repositório
 [![Frontend Repo](https://img.shields.io/badge/Repositório_Frontend-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DenariusData/DenariusData-Front)
+[![Backend Repo](https://img.shields.io/badge/Repositório_Backend-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DenariusData/DenariusData-Back)
 [![Meus Códigos](https://img.shields.io/badge/Meus_Códigos-00D9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DenariusData/DenariusData-Front/tree/Sprint-1/Front/pages)
 
-</div>
+<br>
+
+### Contribuições Pessoais
+
+Atuei como **desenvolvedor frontend** com participação estratégica no desenvolvimento da interface do usuário e na integração com o backend. Minhas contribuições iniciaram na concepção da interface através de wireframes, evoluindo para o desenvolvimento completo das funcionalidades front-end. Esta visão focada na experiência do usuário me permitiu entregar soluções intuitivas e alinhadas com os objetivos do negócio, sempre focando na qualidade do produto final e na eficiência da interface.
+
+**Principais Atividades:**
+
+- Desenvolvimento de wireframes para planejamento das sprints
+- Desenvolvimento front-end completo utilizando Vue.js e Nuxt.js
+- Criação de páginas de cadastro de empresas e funcionários
+- Implementação de dashboard interativo com gráficos utilizando Chart.js
+- Desenvolvimento do sistema de registro de ponto com validação de formulários
+- Criação do sistema de relatórios com exportação em PDF e Excel
+- Implementação de filtros dinâmicos por empresa e funcionário
+- Integração com API REST do backend
+- Estilização responsiva dos componentes com CSS e SASS
 
 <br>
 
 <details>
-<summary>✨ <b>Minhas Contribuições no Frontend</b> (clique para expandir)</summary>
+<summary><b>🎯 Destaques Técnicos - Códigos Desenvolvidos</b> (clique para expandir)</summary>
 <br>
-
-<div align="center">
-
-| 🎯 Área | 🚀 Implementações | 💡 Tecnologias |
-|---------|------------------|----------------|
-| **🎨 Páginas** | • Registro de ponto com validação de formulários<br>• Dashboard com gráficos interativos<br>• Sistema de relatórios (PDF/Excel)<br>• Cadastro de empresas e colaboradores | Vue 3, Nuxt.js, TypeScript |
-| **📊 Visualização** | • Gráficos de pizza para empresas<br>• Gráficos de linha para frequência<br>• Gráficos de barras com filtros dinâmicos<br>• Filtros por empresa e funcionário | Chart.js, Vue Reactivity |
-| **🔄 Integração** | • Consumo de API REST<br>• Tratamento de estados de loading<br>• Validação com Yup Schema<br>• Upload e exibição de imagens | Axios, Vue Composition API |
-| **📱 Responsividade** | • Design mobile-first<br>• Componentes reutilizáveis<br>• Interface adaptativa<br>• UX otimizada | Tailwind CSS, Nuxt UI |
-
-</div>
-
-<br>
-
-### 🎯 Destaques Técnicos - Sprint 1
 
 > 💡 **Ver código completo:** [Acessar pasta de páginas no repositório](https://github.com/DenariusData/DenariusData-Front/tree/Sprint-1/Front/pages)
 
@@ -186,7 +195,28 @@ const workState = reactive({
     company: undefined,
     employee: undefined
 })
+
+async function onSubmit(event: FormSubmitEvent<WorkSchema>) {
+    console.log('Dados do trabalho:', event.data)
+}
 </script>
+
+<template>
+    <UCard class="w-full md:w-1/3">
+        <UForm :schema="workSchema" :state="workState" @submit="onSubmit">
+            <UFormGroup label="Empresa" name="company">
+                <USelect v-model="workState.company" :options="companies" />
+            </UFormGroup>
+            <UFormGroup label="Funcionário" name="employee">
+                <USelect v-model="workState.employee" :options="employees" />
+            </UFormGroup>
+            <UFormGroup label="Dia Trabalhado" name="date">
+                <UInput v-model="workState.date" type="date" />
+            </UFormGroup>
+            <UButton type="submit" label="Salvar registro" color="primary" block />
+        </UForm>
+    </UCard>
+</template>
 ```
 📂 [Ver código completo da página de ponto](https://github.com/DenariusData/DenariusData-Front/blob/Sprint-1/Front/pages/ponto.vue)
 
@@ -196,15 +226,46 @@ const workState = reactive({
 import { ref, watch } from "vue";
 import { Chart, registerables } from "chart.js";
 
+Chart.register(...registerables);
+
+const pieChart = ref(null);
+const lineChart = ref(null);
+const barChart = ref(null);
+
 const empresaSelecionada = ref("");
 const funcionarioSelecionado = ref("");
 
 watch(empresaSelecionada, () => {
   funcionarioSelecionado.value = "";
-  atualizarGrafico();
+  funcionariosFiltrados.value = funcionariosPorEmpresa[empresaSelecionada.value] || [];
 });
 
-// Gráficos: Pizza, Linha e Barras com filtros
+onMounted(() => {
+  // Gráfico de Pizza: Empresas cadastradas
+  new Chart(pieChart.value, {
+    type: "pie",
+    data: {
+      labels: ["Empresa A", "Empresa B", "Empresa C", "Empresa D"],
+      datasets: [{
+        data: [10, 20, 15, 30],
+        backgroundColor: ["rgba(255, 99, 132, 0.5)", "rgba(54, 162, 235, 0.5)"]
+      }]
+    }
+  });
+  
+  // Gráfico de Linha: Profissionais por dia
+  new Chart(lineChart.value, {
+    type: "line",
+    data: {
+      labels: ["Seg", "Ter", "Qua", "Qui", "Sex"],
+      datasets: [{
+        label: "Profissionais por Dia",
+        data: [10, 12, 8, 15, 9],
+        borderColor: "rgba(54, 162, 235, 1)"
+      }]
+    }
+  });
+});
 </script>
 ```
 📂 [Ver código completo do dashboard](https://github.com/DenariusData/DenariusData-Front/blob/Sprint-1/Front/pages/index.vue)
@@ -214,9 +275,23 @@ watch(empresaSelecionada, () => {
 <script setup>
 import * as XLSX from 'xlsx';
 import { jsPDF } from 'jspdf';
+import axios from 'axios';
+
+const funcionarios = ref<any[]>([]);
+const funcionariosSelecionados = ref<any[]>([]);
+
+const fetchFuncionarios = async () => {
+  try {
+    const response = await axios.get('http://localhost:8080/api/funcionarios');
+    funcionarios.value = response.data;
+  } catch (error) {
+    console.error('Erro ao carregar os funcionários', error);
+  }
+};
 
 const exportToExcel = () => {
-  const ws = XLSX.utils.json_to_sheet(funcionariosSelecionados.value);
+  const dadosExportados = funcionariosSelecionados.value.map(({ imagem, ...rest }) => rest);
+  const ws = XLSX.utils.json_to_sheet(dadosExportados);
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'Funcionarios');
   XLSX.writeFile(wb, 'relatorio_funcionarios.xlsx');
@@ -224,7 +299,9 @@ const exportToExcel = () => {
 
 const exportToPDF = () => {
   const doc = new jsPDF();
+  doc.text('Relatório de Funcionários', 14, 20);
   // Geração personalizada de PDF com dados e imagens
+  doc.save('relatorio_funcionarios.pdf');
 };
 </script>
 ```
@@ -236,10 +313,12 @@ const exportToPDF = () => {
 - 📊 Dashboard com 3 tipos de gráficos (Pizza, Linha, Barras)
 - 🔍 Sistema de filtros dinâmicos por empresa e funcionário
 - 📄 Exportação de relatórios em PDF e Excel
-- ✍️ Validação completa de formulários com Yup
-- 📱 Interface 100% responsiva
+- ✍️ Validação completa de formulários com Yup Schema
+- 📱 Interface 100% responsiva e mobile-first
 - ⚡ Performance otimizada com Vue 3 Composition API
 - 🎨 Design system consistente com Nuxt UI
+- 🖼️ Upload e exibição de imagens de funcionários
+- 📈 Cálculo automático de horas trabalhadas
 
 <br>
 
@@ -252,195 +331,33 @@ const exportToPDF = () => {
 
 <br>
 
-<details>
-<summary>🏆 <b>Resultados do Projeto</b></summary>
-<br>
+### Hard Skills
 
-### 📈 Impacto e Aprendizados
+**Vue.js/Nuxt.js:** Domínio avançado em arquitetura de componentes, Composition API, gerenciamento de estado com Pinia, e compreensão profunda de como é feita a comunicação entre sistemas via API REST. Experiência em SSR (Server-Side Rendering) e SSG (Static Site Generation) com Nuxt.js para otimização de performance.
 
-- ✅ **Sistema completo** entregue em 3 sprints
-- ✅ **Interface moderna** aprovada pelo cliente
-- ✅ **Funcionalidades** 100% operacionais
-- ✅ **Código limpo** e manutenível
-- ✅ **Documentação** completa do sistema
+**CSS/SASS:** Domínio avançado em estilização de componentes visuais, com habilidade em implementar design systems consistentes, garantindo identidade visual coesa. Experiência em criar layouts responsivos utilizando Flexbox e Grid, além de animações e transições suaves. Conhecimento em pré-processadores como SASS para modularização e reutilização de código.
 
-### 💪 Competências Desenvolvidas
+**JavaScript/TypeScript:** Domínio intermediário em JavaScript moderno (ES6+) e TypeScript, aplicando tipagem estática para maior segurança no código. Experiência com programação assíncrona (Promises, async/await), manipulação de arrays e objetos, e validação de dados.
 
-- Arquitetura de componentes Vue.js/Nuxt.js
-- Integração Frontend-Backend via API REST
-- Manipulação avançada de gráficos com Chart.js
-- Geração de relatórios (PDF/Excel)
-- Trabalho em equipe com metodologia ágil (SCRUM)
-- Versionamento com Git e GitHub
+**Integração de APIs:** Experiência sólida em consumo de APIs RESTful utilizando Axios, tratamento de erros, gerenciamento de estados de loading, e formatação de dados. Conhecimento em autenticação e autorização via tokens JWT.
 
-</details>
+**Visualização de Dados:** Domínio intermediário em Chart.js para criação de gráficos interativos e responsivos, incluindo gráficos de pizza, linha e barras com filtros dinâmicos e atualizações em tempo real.
+
+**Java e Spring Boot:** Conhecimento intermediário em desenvolvimento backend com Java, utilizando Spring Boot para criação de APIs RESTful, Spring Data JPA para persistência de dados, e integração com bancos de dados relacionais.
+
+**Banco de Dados:** Experiência em modelagem de bancos de dados relacionais (MySQL, PostgreSQL), criação de queries SQL otimizadas, e compreensão de normalização e relacionamentos entre tabelas.
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+### Soft Skills
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> Competências
+**Trabalho em equipe:** Atuei com comunicação constante com o resto do time, principalmente com os desenvolvedores do backend para garantir a integração perfeita entre frontend e API. Participei ativamente de pair programming e code reviews, oferecendo suporte aos membros com dificuldades e promovendo um ambiente colaborativo. Em casos de discordância no time, expressei minha opinião de forma construtiva e evitei o acúmulo de problemas.
 
-<div align="center">
+**Comunicação:** Participei ativamente de reuniões semanais (dailies, planning, review e retrospectiva) com o time, garantindo alinhamento entre as entregas e as expectativas do cliente. Mantive uma comunicação clara e objetiva com o Product Owner e o Scrum Master, detalhando minhas abordagens para as tarefas e antecipando possíveis desafios técnicos. Documentei decisões importantes e compartilhei conhecimento com a equipe.
 
-### 🔨 Hard Skills
+**Resolução de problemas:** Contribuí para o planejamento e estruturação inicial das interfaces através de wireframes, propondo soluções práticas para desafios de UX/UI. Atuei na arquitetura do frontend, otimizando fluxos críticos de navegação e implementando melhorias que tornaram o sistema mais eficiente e intuitivo. Minha abordagem proativa ajudou a resolver problemas de integração com o backend e a manter o progresso do projeto dentro dos prazos estabelecidos.
 
-</div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎨 Frontend Development
-<br>
-
-**🖼️ Vue.js/Nuxt.js**
-```javascript
-✓ Composition API
-✓ Component Architecture
-✓ State Management (Pinia)
-✓ SSR & SSG
-✓ Nuxt UI & Tailwind
-✓ Form Validation (Yup)
-```
-
-**📊 Data Visualization**
-```javascript
-✓ Chart.js Integration
-✓ Dynamic Graphs
-✓ Real-time Updates
-✓ Custom Filters
-✓ Export Functionality
-```
-
-</td>
-<td width="50%" valign="top">
-
-### ⚙️ Backend & Integration
-<br>
-
-**☕ Java & Spring**
-```java
-✓ REST API Development
-✓ Spring Boot
-✓ JPA/Hibernate
-✓ API Documentation
-✓ CRUD Operations
-```
-
-**🔌 API Integration**
-```javascript
-✓ Axios HTTP Client
-✓ Error Handling
-✓ Loading States
-✓ File Upload
-✓ Data Formatting
-```
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-### 🗄️ Database & DevOps
-
-<br>
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-**🐘 PostgreSQL**
-<br><br>
-✓ Modelagem Relacional<br>
-✓ Query Optimization<br>
-✓ Índices & Performance<br>
-✓ Triggers & Functions
-
-</td>
-<td align="center" width="33%">
-
-**🐬 MySQL**
-<br><br>
-✓ Database Design<br>
-✓ Complex Queries<br>
-✓ Backup & Recovery<br>
-✓ Performance Tuning
-
-</td>
-<td align="center" width="33%">
-
-**🛠️ Tools & Workflow**
-<br><br>
-✓ Git & GitHub<br>
-✓ Jira & Scrum<br>
-✓ Figma & Design<br>
-✓ Swagger/OpenAPI
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br>
-
-<div align="center">
-
-### 🌟 Soft Skills
-
-</div>
-
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-
-<img src="https://cdn-icons-png.flaticon.com/512/1534/1534938.png" width="50" height="50" />
-
-### 🤝 Trabalho em Equipe
-
-<br>
-
-✅ Colaboração ágil  
-✅ Comunicação efetiva  
-✅ Code reviews  
-✅ Pair programming  
-✅ Feedback construtivo
-
-</td>
-<td width="33%" align="center" valign="top">
-
-<img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" width="50" height="50" />
-
-### 💬 Adaptabilidade
-
-<br>
-
-✅ Aprendizado rápido  
-✅ Metodologia ágil  
-✅ Resolução de problemas  
-✅ Gestão de tempo  
-✅ Foco em resultados
-
-</td>
-<td width="33%" align="center" valign="top">
-
-<img src="https://cdn-icons-png.flaticon.com/512/4149/4149679.png" width="50" height="50" />
-
-### 🧩 Proatividade
-
-<br>
-
-✅ Iniciativa própria  
-✅ Busca por soluções  
-✅ Melhoria contínua  
-✅ Autonomia  
-✅ Entrega de valor
-
-</td>
-</tr>
-</table>
+**Proatividade:** Busquei constantemente aprender novas tecnologias e melhores práticas para aplicar no projeto. Identifiquei oportunidades de melhoria na interface e propus soluções antes que se tornassem problemas. Auxiliei na documentação do código e na criação de guias para facilitar a manutenção futura do sistema.
 
 <br>
 
