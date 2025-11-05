@@ -82,12 +82,6 @@ graph LR
 
 </div>
 
-**Desenvolvimento Web Front-end:** Experiência sólida utilizando Vue.js e Nuxt.js, com foco em criação de interfaces modernas e responsivas.
-
-**Desenvolvimento Web Back-end:** Conhecimento em Java com Spring Boot, desenvolvimento de APIs REST e integração com banco de dados.
-
-**Banco de Dados:** Experiência em bancos relacionais, principalmente PostgreSQL e MySQL, com foco em modelagem e otimização.
-
 <br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
