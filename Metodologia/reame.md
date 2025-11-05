@@ -414,27 +414,3 @@ const exportToPDF = () => {
 [![GitHub](https://img.shields.io/badge/GitHub-Seguir-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafaslivka)
 
 </div>
-
-<br>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<div align="center">
-
-### 🌟 Obrigado pela visita!
-
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60">
-
-**Se você gostou do meu perfil, não esqueça de deixar uma ⭐ nos repositórios!**
-
-<br>
-
-![Visitor Count](https://komarev.com/ghpvc/?username=rafaslivka&color=00D9FF&style=for-the-badge&label=VISITANTES)
-
-<br>
-
-<sub>Desenvolvido com 💙 Vue.js, ☕ Java e muita ⚡ dedicação</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%">
-
-</div>
