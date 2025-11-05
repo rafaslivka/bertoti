@@ -2,7 +2,7 @@
 
 #  Rafael Lopes Slivka
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Frontend+Developer;Database+Enthusiast;Vue.js+%7C+Java+%7C+PostgreSQL" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=435&lines=Frontend+Developer;Database+Enthusiast;Vue.js+%7C+Nuxt.js+%7C+Java" alt="Typing SVG" />
 
 <br>
 
@@ -18,16 +18,23 @@
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> Sobre Mim
 
-```javascript
-const rafael = {
-    education: "Banco de Dados @ FATEC (2024)",
-    location: "São José dos Campos, SP 🇧🇷",
-    background: ["Logística", "Back Office", "Programação"],
-    currentFocus: ["Vue.js", "Frontend", "PostgreSQL"],
-    learningMode: "Always ON 🚀",
-    quote: "Transformando experiência operacional em soluções tecnológicas eficientes"
-};
-```
+🚀 Desenvolvedor em constante evolução, apaixonado por tecnologia e por resolver problemas reais com código
+
+📍 São José dos Campos, SP - Brasil
+
+💼 Atualmente estagiário no Sebrae, onde combino habilidades técnicas com operações de negócios e empreededorismo
+
+🎓 Cursando Banco de Dados na FATEC, após completar um semestre em Logística
+
+🚚 Trazendo 9 anos de experiência em logística para o mundo tech - entendo de operações, processos e eficiência
+
+🌐 Inglês avançado, pronto para oportunidades globais
+
+🎸 Entusiasta de rock que programa de dia e toca à noite - guitarra e bateria são meus refúgios criativos
+
+💪 Sempre aprendendo, sempre evoluindo, sempre programando!
+
+<br>
 
 <details>
 <summary>📖 <b>Minha Jornada</b></summary>
@@ -38,14 +45,14 @@ graph LR
     A[📦 Logística] --> B[💼 Back Office]
     B --> C[💻 Programação 2023]
     C --> D[🎓 FATEC 2024]
-    D --> E[🚀 Full Stack Dev]
+    D --> E[🎨 Frontend Specialist]
     style E fill:#00d9ff,stroke:#0066cc,stroke-width:3px
 ```
 
-- 📦 **Experiência prévia:** Logística e Back Office
-- 💻 **Virada de chave:** Programação desde 2023
-- 🎯 **Objetivo atual:** Dominar Frontend Development
-- 🔥 **Paixão:** Criar interfaces incríveis e intuitivas
+- 📦 **Experiência prévia:** Logística e operações de Back Office
+- 💻 **Início na programação:** 2023
+- 🎯 **Foco atual:** Desenvolvimento Frontend com Vue.js e Nuxt.js
+- 🔥 **Paixão:** Criar experiências de usuário memoráveis e funcionais
 
 </details>
 
@@ -87,7 +94,7 @@ graph LR
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> Projetos em Destaque
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> Projeto em Destaque
 
 <div align="center">
 
@@ -98,16 +105,16 @@ graph LR
 <td width="50%">
 
 #### 📊 Sobre o Projeto
-Sistema completo de **controle de ponto eletrônico** com dashboard interativo, desenvolvido para otimizar a gestão de empresas e colaboradores através de uma interface moderna e responsiva.
+Sistema completo de **controle de ponto eletrônico** desenvolvido para otimizar a gestão empresarial através de uma interface moderna, responsiva e intuitiva.
 
-#### 🎯 Objetivo
-Centralizar informações e proporcionar relatórios analíticos para facilitar a tomada de decisões empresariais.
+#### 🎯 Características
+Sistema centralizado de informações com dashboards analíticos e relatórios detalhados para facilitar a tomada de decisões.
 
 </td>
 <td width="50%">
 
-#### 📈 Métricas
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square)
+#### 📈 Informações
+![Status](https://img.shields.io/badge/Status-Concluído-success?style=flat-square)
 ![Team](https://img.shields.io/badge/Team-6%20Devs-blue?style=flat-square)
 ![Semester](https://img.shields.io/badge/Semestre-3º-green?style=flat-square)
 
@@ -121,55 +128,150 @@ São José dos Campos, SP
 
 <br>
 
-#### 🔧 Stack do Projeto
+#### 🔧 Stack Tecnológica
 ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+
+#### 🔗 Links do Repositório
+[![Frontend Repo](https://img.shields.io/badge/Repositório_Frontend-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DenariusData/DenariusData-Front)
+[![Meus Códigos](https://img.shields.io/badge/Meus_Códigos-00D9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DenariusData/DenariusData-Front/tree/Sprint-1/Front/pages)
 
 </div>
 
 <br>
 
 <details>
-<summary>✨ <b>Minhas Contribuições Detalhadas</b> (clique para expandir)</summary>
+<summary>✨ <b>Minhas Contribuições no Frontend</b> (clique para expandir)</summary>
 <br>
 
 <div align="center">
 
-| 🎯 Área | 🚀 Contribuições | 💡 Impacto |
-|---------|------------------|------------|
-| **🎨 Frontend** | • Páginas de cadastro (empresas/colaboradores)<br>• Dashboards interativos com gráficos<br>• Sistema de filtros e pesquisa avançada | Alta usabilidade e experiência do usuário |
-| **🔧 Componentes** | • Biblioteca de componentes reutilizáveis<br>• Sistema de design responsivo<br>• Otimização de UX multiplataforma | Código limpo e manutenível |
-| **🔌 Integração** | • Conexão com API RESTful<br>• Sincronização de dados em tempo real<br>• Tratamento de erros e loading states | Sistema robusto e confiável |
-| **📊 Gestão** | • Participação em sprints e dailies<br>• Planejamento de tasks no Jira<br>• Code reviews e pair programming | Entrega contínua de valor |
+| 🎯 Área | 🚀 Implementações | 💡 Tecnologias |
+|---------|------------------|----------------|
+| **🎨 Páginas** | • Registro de ponto com validação de formulários<br>• Dashboard com gráficos interativos<br>• Sistema de relatórios (PDF/Excel)<br>• Cadastro de empresas e colaboradores | Vue 3, Nuxt.js, TypeScript |
+| **📊 Visualização** | • Gráficos de pizza para empresas<br>• Gráficos de linha para frequência<br>• Gráficos de barras com filtros dinâmicos<br>• Filtros por empresa e funcionário | Chart.js, Vue Reactivity |
+| **🔄 Integração** | • Consumo de API REST<br>• Tratamento de estados de loading<br>• Validação com Yup Schema<br>• Upload e exibição de imagens | Axios, Vue Composition API |
+| **📱 Responsividade** | • Design mobile-first<br>• Componentes reutilizáveis<br>• Interface adaptativa<br>• UX otimizada | Tailwind CSS, Nuxt UI |
 
 </div>
 
 <br>
 
-### 🎯 Destaques Técnicos
+### 🎯 Destaques Técnicos - Sprint 1
 
+> 💡 **Ver código completo:** [Acessar pasta de páginas no repositório](https://github.com/DenariusData/DenariusData-Front/tree/Sprint-1/Front/pages)
+
+#### 📝 Página de Registro de Ponto
 ```vue
-<template>
-  <!-- Dashboard interativo com gráficos em tempo real -->
-  <DashboardComponent 
-    :data="employeeData" 
-    @filter="handleFilter"
-    responsive
-    animated
-  />
-</template>
-```
+<script setup lang="ts">
+import { object, string, date } from 'yup'
+import type { FormSubmitEvent } from '#ui/types'
 
-**✅ Features Implementadas:**
-- 📊 Visualização de dados em tempo real
-- 🔍 Filtros avançados e pesquisa inteligente
-- 📱 Design 100% responsivo
-- ⚡ Performance otimizada
-- 🎨 Interface moderna e intuitiva
+const workSchema = object({
+    date: date().required('Escolha uma data válida'),
+    startTime: string().required('Horário de entrada obrigatório'),
+    endTime: string().required('Horário de saída obrigatório'),
+    company: string().required('Selecione a empresa'),
+    employee: string().required('Selecione o funcionário')
+})
+
+const workState = reactive({
+    date: undefined,
+    startTime: undefined,
+    endTime: undefined,
+    company: undefined,
+    employee: undefined
+})
+</script>
+```
+📂 [Ver código completo da página de ponto](https://github.com/DenariusData/DenariusData-Front/blob/Sprint-1/Front/pages/ponto.vue)
+
+#### 📊 Dashboard com Gráficos Interativos
+```vue
+<script setup>
+import { ref, watch } from "vue";
+import { Chart, registerables } from "chart.js";
+
+const empresaSelecionada = ref("");
+const funcionarioSelecionado = ref("");
+
+watch(empresaSelecionada, () => {
+  funcionarioSelecionado.value = "";
+  atualizarGrafico();
+});
+
+// Gráficos: Pizza, Linha e Barras com filtros
+</script>
+```
+📂 [Ver código completo do dashboard](https://github.com/DenariusData/DenariusData-Front/blob/Sprint-1/Front/pages/index.vue)
+
+#### 📄 Sistema de Relatórios
+```vue
+<script setup>
+import * as XLSX from 'xlsx';
+import { jsPDF } from 'jspdf';
+
+const exportToExcel = () => {
+  const ws = XLSX.utils.json_to_sheet(funcionariosSelecionados.value);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Funcionarios');
+  XLSX.writeFile(wb, 'relatorio_funcionarios.xlsx');
+};
+
+const exportToPDF = () => {
+  const doc = new jsPDF();
+  // Geração personalizada de PDF com dados e imagens
+};
+</script>
+```
+📂 [Ver código completo de relatórios](https://github.com/DenariusData/DenariusData-Front/blob/Sprint-1/Front/pages/relatorios.vue)
+
+<br>
+
+**✅ Funcionalidades Implementadas:**
+- 📊 Dashboard com 3 tipos de gráficos (Pizza, Linha, Barras)
+- 🔍 Sistema de filtros dinâmicos por empresa e funcionário
+- 📄 Exportação de relatórios em PDF e Excel
+- ✍️ Validação completa de formulários com Yup
+- 📱 Interface 100% responsiva
+- ⚡ Performance otimizada com Vue 3 Composition API
+- 🎨 Design system consistente com Nuxt UI
+
+<br>
+
+**🔗 Acesse o código:**
+- 📁 [Repositório Frontend Completo](https://github.com/DenariusData/DenariusData-Front)
+- 💻 [Códigos da Sprint 1 - Páginas](https://github.com/DenariusData/DenariusData-Front/tree/Sprint-1/Front/pages)
+- 🎨 [Componentes Reutilizáveis](https://github.com/DenariusData/DenariusData-Front/tree/Sprint-1/Front/components)
+
+</details>
+
+<br>
+
+<details>
+<summary>🏆 <b>Resultados do Projeto</b></summary>
+<br>
+
+### 📈 Impacto e Aprendizados
+
+- ✅ **Sistema completo** entregue em 3 sprints
+- ✅ **Interface moderna** aprovada pelo cliente
+- ✅ **Funcionalidades** 100% operacionais
+- ✅ **Código limpo** e manutenível
+- ✅ **Documentação** completa do sistema
+
+### 💪 Competências Desenvolvidas
+
+- Arquitetura de componentes Vue.js/Nuxt.js
+- Integração Frontend-Backend via API REST
+- Manipulação avançada de gráficos com Chart.js
+- Geração de relatórios (PDF/Excel)
+- Trabalho em equipe com metodologia ágil (SCRUM)
+- Versionamento com Git e GitHub
 
 </details>
 
@@ -194,48 +296,45 @@ São José dos Campos, SP
 
 **🖼️ Vue.js/Nuxt.js**
 ```javascript
-✓ Component Architecture
 ✓ Composition API
-✓ State Management (Vuex/Pinia)
-✓ Router & Navigation
-✓ API Integration
-✓ Performance Optimization
+✓ Component Architecture
+✓ State Management (Pinia)
+✓ SSR & SSG
+✓ Nuxt UI & Tailwind
+✓ Form Validation (Yup)
 ```
 
-**💅 Styling & Design**
-```css
-✓ CSS3 & SASS/SCSS
-✓ Responsive Design
-✓ Design Systems
-✓ Flexbox & Grid
-✓ Animations & Transitions
-✓ UI/UX Best Practices
+**📊 Data Visualization**
+```javascript
+✓ Chart.js Integration
+✓ Dynamic Graphs
+✓ Real-time Updates
+✓ Custom Filters
+✓ Export Functionality
 ```
 
 </td>
 <td width="50%" valign="top">
 
-### ⚙️ Backend Development
+### ⚙️ Backend & Integration
 <br>
 
-**☕ Java & OOP**
+**☕ Java & Spring**
 ```java
-✓ SOLID Principles
-✓ Clean Architecture
-✓ Design Patterns
-✓ Collections & Streams
-✓ Lambda Expressions
-✓ Exception Handling
+✓ REST API Development
+✓ Spring Boot
+✓ JPA/Hibernate
+✓ API Documentation
+✓ CRUD Operations
 ```
 
-**🍃 Spring Ecosystem**
-```java
-✓ Spring Boot
-✓ RESTful APIs
-✓ Dependency Injection
-✓ JPA/Hibernate
-✓ Spring Security
-✓ API Documentation
+**🔌 API Integration**
+```javascript
+✓ Axios HTTP Client
+✓ Error Handling
+✓ Loading States
+✓ File Upload
+✓ Data Formatting
 ```
 
 </td>
@@ -255,32 +354,29 @@ São José dos Campos, SP
 **🐘 PostgreSQL**
 <br><br>
 ✓ Modelagem Relacional<br>
-✓ Otimização de Queries<br>
+✓ Query Optimization<br>
 ✓ Índices & Performance<br>
-✓ Triggers & Functions<br>
-✓ Administração de BD
+✓ Triggers & Functions
 
 </td>
 <td align="center" width="33%">
 
 **🐬 MySQL**
 <br><br>
-✓ Design de Schemas<br>
-✓ Query Optimization<br>
+✓ Database Design<br>
+✓ Complex Queries<br>
 ✓ Backup & Recovery<br>
-✓ Migrations<br>
 ✓ Performance Tuning
 
 </td>
 <td align="center" width="33%">
 
-**🛠️ Tools & Workflows**
+**🛠️ Tools & Workflow**
 <br><br>
 ✓ Git & GitHub<br>
 ✓ Jira & Scrum<br>
-✓ Swagger/OpenAPI<br>
-✓ Postman<br>
-✓ VS Code & IntelliJ
+✓ Figma & Design<br>
+✓ Swagger/OpenAPI
 
 </td>
 </tr>
@@ -306,10 +402,10 @@ São José dos Campos, SP
 
 <br>
 
-✅ Comunicação assertiva  
-✅ Colaboração ativa  
-✅ Suporte aos colegas  
-✅ Integração com o time  
+✅ Colaboração ágil  
+✅ Comunicação efetiva  
+✅ Code reviews  
+✅ Pair programming  
 ✅ Feedback construtivo
 
 </td>
@@ -317,30 +413,30 @@ São José dos Campos, SP
 
 <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" width="50" height="50" />
 
-### 💬 Comunicação
+### 💬 Adaptabilidade
 
 <br>
 
-✅ Reuniões produtivas  
-✅ Alinhamento de tasks  
-✅ Documentação clara  
-✅ Apresentações técnicas  
-✅ Code reviews efetivos
+✅ Aprendizado rápido  
+✅ Metodologia ágil  
+✅ Resolução de problemas  
+✅ Gestão de tempo  
+✅ Foco em resultados
 
 </td>
 <td width="33%" align="center" valign="top">
 
 <img src="https://cdn-icons-png.flaticon.com/512/4149/4149679.png" width="50" height="50" />
 
-### 🧩 Problem Solving
+### 🧩 Proatividade
 
 <br>
 
-✅ Análise de requisitos  
-✅ Soluções criativas  
-✅ Debugging eficiente  
-✅ Otimização de código  
-✅ Pensamento crítico
+✅ Iniciativa própria  
+✅ Busca por soluções  
+✅ Melhoria contínua  
+✅ Autonomia  
+✅ Entrega de valor
 
 </td>
 </tr>
@@ -386,7 +482,7 @@ São José dos Campos, SP
 ```
 
 **Áreas de Foco:**
-`Modelagem de Dados` • `SQL Avançado` • `NoSQL` • `Big Data` • `Data Analytics`
+`Modelagem de Dados` • `SQL Avançado` • `Desenvolvimento Web` • `API REST` • `UX/UI Design`
 
 </div>
 
@@ -404,8 +500,7 @@ São José dos Campos, SP
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-lopes-slivka-07753326a/)
 [![Email](https://img.shields.io/badge/Email-Contato-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visitar-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](seu-portfolio)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Mensagem-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/seu-numero)
+[![GitHub](https://img.shields.io/badge/GitHub-Seguir-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafaslivka)
 
 </div>
 
@@ -427,7 +522,7 @@ São José dos Campos, SP
 
 <br>
 
-<sub>Desenvolvido com ☕ Java, 💙 Vue.js e muita ⚡ dedicação</sub>
+<sub>Desenvolvido com 💙 Vue.js, ☕ Java e muita ⚡ dedicação</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%">
 
